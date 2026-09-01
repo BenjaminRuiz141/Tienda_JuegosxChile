@@ -1,0 +1,145 @@
+/* Estilos Generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121214;
+    color: #e1e1e6;
+    line-height: 1.6;
+}
+
+.seccion {
+    padding: 2rem 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    color: #132aff;
+}
+
+/* Header y Navegación */
+.header {
+    background-color: #202024;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #323238;
+    text-align: center;
+}
+
+.header h1 span {
+    color: #e92525;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.nav-links a {
+    color: #e1e1e6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00b4d8;
+}
+
+/* Catálogo */
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #202024;
+    border: 1px solid #323238;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.precio {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #15bcdd;
+    margin-top: 0.5rem;
+}
+
+/* Categorías y Contacto */
+.lista-categorias {
+    list-style: none;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.lista-categorias li {
+    padding: 0.7rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.lista-categorias li:nth-child(odd) {
+    background-color: #202024;
+}
+
+.lista-categorias li:nth-child(even) {
+    background-color: #29292e;
+}
+
+#contacto {
+    background-color: #202024;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #121214;
+    border-top: 1px solid #323238;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #00b4d8;
+}
+
+/* Diseño Responsivo */
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 0.8rem;
+        text-align: center;
+    }
+}
