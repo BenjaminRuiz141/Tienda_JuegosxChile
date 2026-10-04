@@ -1,0 +1,11 @@
+# Dependencias (nunca se suben a Git ni al repositorio)
+node_modules/
+
+# Carpeta de compilacion
+dist/
+dist-ssr/
+
+# Logs y temporales
+*.local
+.vscode/
+.DS_Store
