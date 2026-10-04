@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "PlayStation 5 Digital Edition",
+    "categoria": "Consolas",
+    "precio": 549990,
+    "descripcion": "Consola de última generación con gráficos 4K y SSD ultrarrápido.",
+    "imagen": "assets/img/imagen-ps5.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "PlayStation 5 Estándar con Lector",
+    "categoria": "Consolas",
+    "precio": 599990,
+    "descripcion": "Incluye lector de discos Blu-Ray Ultra HD y mando DualSense inalámbrico.",
+    "imagen": "assets/img/imagen-ps5.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Control Inalámbrico Xbox Robot White",
+    "categoria": "Accesorios",
+    "precio": 74990,
+    "descripcion": "Diseño ergonómico, agarre texturizado y conexión Bluetooth para PC y consola.",
+    "imagen": "assets/img/imagen-control-xbox.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Control Inalámbrico Xbox Carbon Black",
+    "categoria": "Accesorios",
+    "precio": 79990,
+    "descripcion": "Botón para compartir contenido al instante y cruceta híbrida precisa.",
+    "imagen": "assets/img/imagen-control-xbox.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Headset Gamer HyperX Cloud II",
+    "categoria": "Periféricos",
+    "precio": 64990,
+    "descripcion": "Sonido envolvente 7.1 virtual, almohadillas viscoelásticas y micrófono extraíble.",
+    "imagen": "assets/img/imagen-headset-gamer.webp"
+  },
+  {
+    "id": 6,
+    "nombre": "Headset Gamer HyperX Cloud Stinger",
+    "categoria": "Periféricos",
+    "precio": 49990,
+    "descripcion": "Ligero y cómodo para sesiones prolongadas de juego con micrófono giratorio.",
+    "imagen": "assets/img/imagen-headset-gamer.webp"
+  }
+]
